@@ -1,0 +1,36 @@
+.pane {
+/*  background-color: #ddd;
+  display: inline-block;
+  width: 3in;
+  height: 4in;
+  margin: 10px;
+  border-radius: 6px;*/
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  /*display: flex;
+ flex-flow: row wrap;
+ justify-content: flex-end;
+margin: 15%;*/
+}
+
+#delete-button {
+  background: #EB0029;
+  color: #ffffff !important;
+
+
+}
+
+#save-button {
+  background: #009BDE;
+  color: #ffffff !important;
+}
+#reload-button {
+  color: #ffffff !important;
+  background: #FFA400;
+  color: #ffffff !important;
+}
+
+.text{}

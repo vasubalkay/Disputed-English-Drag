@@ -1,0 +1,9 @@
+<div class="element-container">
+  <!--<div class="element-heading"></div>-->
+  <div (dragstart)="dragStart($event)"
+       (dragend)="dragEnd($event)"
+       class="drag cBox" draggable="true" id="checkbox" class="checkbox">
+    <input type="checkbox" checked="checked" name="checkbox" value="checkbox" id="check1"> Option 1
+  </div>
+  <span>Check Box</span>
+</div>

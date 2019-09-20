@@ -1,0 +1,23 @@
+<div class="header-btn-container">
+  <button>ATC</button>
+  <button>COMPANY</button>
+  <button>MANAGER</button>
+  <button>IN-FLOW</button>
+  <button>REVIEW</button>
+  <button>INFORMATION</button>
+</div>
+<div id="dropzone"
+     #dropzone (dragenter)="dragEnter($event)"
+     (dragover)="dragOver($event)"
+     (dragleave)="dragLeave($event)"
+     (drop)="dragDrop($event)"
+     class="canvas droppable drop" (click)="onClick($event)" (mouseup)="onMouseUp($event)" (mousemove)="onMouseMove($event)" (mousedown)="onMouseDown($event)">
+  <canvas id="canvas"></canvas>
+  <canvas id="guidelines"></canvas>
+</div>
+<div class="footer-btn-container">
+  <button>Submit</button>
+  <button>Submit</button>
+  <button>Submit</button>
+  <button>Submit</button>
+</div>

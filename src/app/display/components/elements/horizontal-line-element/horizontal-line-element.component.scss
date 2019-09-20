@@ -1,0 +1,31 @@
+.hr-line {
+  // background-color: #fff;
+  color: black;
+  width: 200px;
+  // height: 1px;
+}
+
+.element-heading {
+  font-weight: bolder;
+}
+
+div.element-container hr {
+  width: 105px;
+  color: #000000;
+  border: gray solid 1px;
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+div.element-container {
+  height: 100px;
+  position: relative;
+}
+
+div.element-container span {
+  position: absolute;
+  bottom: -7px;
+  left: 10%;
+  font-size: 1em;
+}

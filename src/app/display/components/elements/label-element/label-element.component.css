@@ -1,0 +1,32 @@
+.label {
+  /* background-color: #fff;*/
+  color: #fff;
+  width: 88px;
+  height: 20px;
+}
+
+
+.element-heading {
+  font-weight: bolder;
+}
+
+div.element-container {
+  height: 107px;
+  position: relative;
+}
+
+div.element-container span {
+  position: absolute;
+  bottom: 0px;
+  left: 27%;
+}
+
+div.element-container label {
+  width: 36px;
+  height: 18px;
+  margin-top: 33px;
+  margin-left: -9px;
+  display: inline-block;
+  font-size: 1.5em;
+  color: gray;
+}

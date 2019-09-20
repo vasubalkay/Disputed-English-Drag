@@ -1,0 +1,26 @@
+<div class="pane">
+  <div>
+    <form [formGroup]="form" (submit)="onSubmit()">
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Module Name" name="moduleName" formControlName="moduleName">
+        <mat-error class="font-md">
+          <span *ngIf="form.get('moduleName').touched && form.get('moduleName').hasError('required')">Module Name is required</span>
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Module Version" name="moduleVersion" formControlName="moduleVersion">
+        <mat-error class="font-md">
+          <span *ngIf="form.get('moduleVersion').touched && form.get('moduleVersion').hasError('required')">Module Version is required</span>
+        </mat-error>
+      </mat-form-field>
+
+      <!--<button mat-raised-button id="reload">Submit</button>-->
+    </form>
+  </div>
+  <div class="container">
+    <button  mat-raised-button id="save-button" (click)="saveElements()" [disabled]="form.invalid"><mat-icon>done_outline</mat-icon>Save</button>
+    <button mat-raised-button id="delete-button" (click)="deleteElements()"><mat-icon>delete_outline</mat-icon>Delete</button>
+    <button mat-raised-button id="reload-button" (click)="reloadCanvas()"><mat-icon>donut_large</mat-icon>Reload</button>
+  </div>
+</div>

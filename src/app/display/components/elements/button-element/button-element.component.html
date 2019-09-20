@@ -1,0 +1,9 @@
+<div class="element-container-box">
+  <!--<div class="element-heading">Button</div>-->
+    <button id="button"
+            #btn (dragstart)="dragStart($event)"
+            (dragend)="dragEnd($event)"
+             class="drag redbtn button" draggable="true" disableRipple>Button</button>
+             <span>Button</span>
+  <div #dest></div>
+</div>

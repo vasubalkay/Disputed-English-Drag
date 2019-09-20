@@ -1,0 +1,44 @@
+input {
+  /*  width: 50%;
+    height: 30%;
+    outline: none;
+    padding: 4px;
+    box-sizing: border-box;
+    transition: 0.3s;
+
+    border: 4px solid #494949 !important;
+    border-radius: 6px;*/
+  width: 88px;
+  height: 20px;
+  resize: both;
+  overflow: auto;
+}
+
+.select {
+  outline: none;
+  border: 4px solid #EB0029;
+}
+
+.element-heading {
+  font-weight: bolder;
+}
+
+div.element-container {
+  height: 107px;
+  position: relative;
+}
+
+div.element-container span {
+  position: absolute;
+  bottom: 0px;
+  left: 27%;
+}
+
+#textbox {
+  margin-top: 38px;
+  width: 88px;
+  height: 22px;
+  border-radius: 8px;
+  border-radius: 10px;
+  border: #666 solid 1px;
+}

@@ -1,0 +1,32 @@
+.checkbox {
+  //background-color: #fff;
+  color: #fff;
+  width: 88px;
+  height: 20px;
+}
+
+.element-heading {
+  font-weight: bolder;
+}
+
+div.element-container {
+  height: 107px;
+  position: relative;
+}
+
+div.element-container span {
+  position: absolute;
+  bottom: 0px;
+  left: 27%;
+}
+
+div.element-container div#checkbox {
+  width: 100%;
+  height: 106px;
+}
+
+div.element-container div#checkbox input[type="checkbox"] {
+  height: 35px;
+  width: 43px;
+  margin: 33px 10px 10px 19px;
+}

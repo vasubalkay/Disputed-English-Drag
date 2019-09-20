@@ -1,0 +1,9 @@
+<div class="element-container">
+  <!--<div class="element-heading">Radio Box</div>-->
+  <div (dragstart)="dragStart($event)"
+       (dragend)="dragEnd($event)"
+       class="drag rBox radio" draggable="true" id="radio">
+    <input type="radio" checked="checked"  value="radio"> Option 1
+  </div>
+  <span>Radio Box</span>
+</div>

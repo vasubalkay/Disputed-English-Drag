@@ -1,0 +1,9 @@
+<div class="element-container">
+  <!--<div class="element-heading">Text Box</div>-->
+
+  <input type="text" id="textbox"
+         #textbox (dragstart)="dragStart($event)"
+         (dragend)="dragEnd($event)"
+         class="drag text" draggable="true" placeholder="">
+         <span>Text Box</span>
+</div>

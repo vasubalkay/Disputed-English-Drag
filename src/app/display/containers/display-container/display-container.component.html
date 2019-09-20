@@ -1,0 +1,17 @@
+<mat-card>
+  <div class="app-root">
+    <div class="formElement-pane">
+      <app-elements-pane></app-elements-pane>
+    </div>
+    <div class="canvasElement-pane">
+      <app-canvas (emitAfterDrop)="onAfterDrop($event)"></app-canvas>
+    </div>  
+    <div class="propElement-pane">
+      <app-properties-change-dialog [selectedWidget] ="selectedWidget"></app-properties-change-dialog>
+    </div>
+    <div class="editElement-pane">
+      <app-edit-pane (saveMessageEmit)="saveMessage($event)"></app-edit-pane>
+    </div>
+  </div>
+  
+</mat-card>

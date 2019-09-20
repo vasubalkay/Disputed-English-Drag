@@ -1,0 +1,39 @@
+.pane {
+    background-color:#E9E9E9;
+    display: inline-block;
+    width: 3in;
+    height: 9in;
+    margin: 10px;
+    border-radius: 1%;
+}
+
+/*.elements-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10%;
+}*/
+div.elements-container-box {
+    display: block;
+    padding: 15px;
+}
+.floatL {
+    float: left;
+}
+.floatR {
+    float: right;
+}
+div.element-holder {
+    width: 117px;
+    min-height: 107px;
+    background: #ffffff;
+    padding: 5px;
+    /* border: #000000 solid 1px; */
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.9em;
+    position: relative;
+    border-radius: 10px;
+}
+
+

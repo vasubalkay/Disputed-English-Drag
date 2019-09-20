@@ -1,0 +1,23 @@
+<div class="element-container">
+  <!--<div class="element-heading">Combo Box</div>-->
+
+  <!--<input type="text" id="textbox"
+         #textbox (dragstart)="dragStart($event)"
+         (dragend)="dragEnd($event)"
+         class="drag" draggable="true" placeholder="Text">-->
+
+  <div (dragstart)="dragStart($event)"
+        (dragend)="dragEnd($event)"
+        draggable="true" id="comboBox">
+        <select>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+ <!--   <input type="checkbox" (dragstart)="dragStart($event)"
+           (dragend)="dragEnd($event)"
+           class="drag" draggable="true" id="checkbox">-->
+  </div>
+  <span>Combo Box</span>
+</div>
