@@ -1,12 +1,14 @@
 .pane {
-  background-color: lightgrey;
-  display: inline-block;
-  width: 3in;
-  max-height: 9in;
+  background-color: #E9E9E9;
+  float: right;
+  width: 6in;
+  min-height: 8.8in;
   margin: 10px;
   border-radius: 1%;
   text-align: center;
   padding-bottom: 20px;
+  -webkit-box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.38); 
+  box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.38);
 }
 
 
@@ -16,4 +18,14 @@
 
 #widgetSelecetionMessage {
   font-weight: bolder;
+}
+.properties_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.row {
+  flex-basis: 40%;
 }
