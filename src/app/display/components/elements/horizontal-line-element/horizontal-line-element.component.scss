@@ -15,7 +15,7 @@ div.element-container hr {
   border: gray solid 1px;
   position: absolute;
   top: 40px;
-  left: 5px;
+  left: 9px;
 }
 
 div.element-container {
@@ -28,4 +28,8 @@ div.element-container span {
   bottom: -7px;
   left: 10%;
   font-size: 1em;
+}
+
+div.div-hr-line {
+  height: 75px;
 }
