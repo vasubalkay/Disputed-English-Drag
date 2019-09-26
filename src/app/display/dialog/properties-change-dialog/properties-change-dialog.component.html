@@ -2,48 +2,84 @@
   <div *ngIf="widgetSelected">
     <p id="widgetName">Widget Name: {{widgetId}}</p>
     <form [formGroup]="form" (submit)="onSubmit($event)">
-      <mat-form-field *ngIf="WidgetType === 'button' || WidgetType === 'checkbox' || WidgetType === 'radio' || WidgetType === 'label' ">
-        <input matInput [(ngModel)]="data.placeholder" placeholder="Enter label" formControlName="placeholder">
-      </mat-form-field>
+      <div class="properties_container">
+        <div class="row" *ngIf="WidgetType === 'button' || WidgetType === 'checkbox' || WidgetType === 'radio' || WidgetType === 'label' || WidgetType === 'select'">
+        <mat-form-field >
+          <input matInput [(ngModel)]="data.placeholder" placeholder="Enter label" formControlName="placeholder">
+        </mat-form-field>
+      </div>
     <!--  <mat-form-field>
         <input matInput [(ngModel)]="data.width" placeholder="Enter width" formControlName="width">
       </mat-form-field>
       <mat-form-field >
         <input matInput [(ngModel)]="data.height" placeholder="Enter height" formControlName="height">
       </mat-form-field>-->
-      <mat-form-field *ngIf="WidgetType === 'input'">
+      <div class="row" *ngIf="WidgetType === 'input'">
+      <mat-form-field >
         <input matInput [(ngModel)]="data.maxLength" placeholder="Enter max length" formControlName="maxLength">
       </mat-form-field>
-      <mat-form-field *ngIf="WidgetType === 'radio' || WidgetType === 'checkbox'">
+      </div>
+      <div class="row" *ngIf="WidgetType === 'radio' || WidgetType === 'checkbox'">
+      <mat-form-field >
         <input matInput  placeholder="Group Name" type="text" formControlName="groupName">
       </mat-form-field>
-      <mat-form-field *ngIf="WidgetType === 'radio' || WidgetType === 'checkbox'">
+      </div>
+      <div class="row" *ngIf="WidgetType === 'radio' || WidgetType === 'checkbox'">
+      <mat-form-field >
         <input matInput [(ngModel)]="data.maxLength" placeholder="Clone"  type="number" formControlName="noOfClone" min="0">
       </mat-form-field>
-      <mat-form-field *ngIf="WidgetType === 'input'">
+      </div>
+      <div class="row" *ngIf="WidgetType === 'input'">
+      <mat-form-field >
         <input matInput [(ngModel)]="data.minLength" placeholder="Enter min length" formControlName="minLength">
       </mat-form-field>
+      </div>
       <!--<mat-form-field>
         <input matInput [(ngModel)]="data.dataType" placeholder="Enter data type">
       </mat-form-field>-->
-      <mat-form-field *ngIf="WidgetType === 'input'">
+      <div class="row" *ngIf="WidgetType === 'input'">
+      <mat-form-field >
         <mat-select placeholder="Data Type" [(ngModel)]="data.dataType" formControlName="dataType">
           <mat-option *ngFor="let dataType of dataTypes" [value]="dataType">
             {{ dataType }}
           </mat-option>
         </mat-select>
       </mat-form-field>
-
-      <mat-form-field *ngIf="WidgetType === 'input'">
+      </div>
+      <div class="row" *ngIf="WidgetType === 'input'">
+      <mat-form-field >
         <input matInput [(ngModel)]="data.value" placeholder="Enter value" formControlName="value">
       </mat-form-field>
-      <mat-form-field *ngIf="WidgetType === 'input'">
+      </div>
+      <div class="row" *ngIf="WidgetType === 'input'">
+      <mat-form-field >
         <input matInput [(ngModel)]="data.fillChar" placeholder="Enter char fill" formControlName="fillChar">
       </mat-form-field>
-      <mat-form-field *ngIf="WidgetType === 'input'">
+      </div>
+      <div class="row" *ngIf="WidgetType === 'input'">
+      <mat-form-field >
         <input matInput [(ngModel)]="data.justification" placeholder="Enter justification"
                formControlName="justification">
       </mat-form-field>
+      </div>
+      <div class="row" *ngIf="WidgetType === 'select'">
+
+      <mat-form-field >
+        <input matInput [(ngModel)]="data.value" placeholder="Enter value" formControlName="value">
+      </mat-form-field>
+      </div>
+      <div class="row" *ngIf="WidgetType === 'select'">
+      <mat-form-field >
+        <input matInput [(ngModel)]="data.fillChar" placeholder="Enter char fill" formControlName="fillChar">
+      </mat-form-field>
+      </div>
+      <div class="row" *ngIf="WidgetType === 'select'">
+      <mat-form-field >
+        <input matInput [(ngModel)]="data.justification" placeholder="Enter justification"
+               formControlName="justification">
+      </mat-form-field>
+      </div>
+      </div>
       <!--<mat-dialog-actions>
         <button mat-button mat-dialog-close>Close</button>
         <button mat-button (click)="closeDialog()">Save</button>
