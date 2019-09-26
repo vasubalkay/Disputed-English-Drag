@@ -1,10 +1,14 @@
 .pane {
     background-color:#E9E9E9;
     display: inline-block;
-    width: 3in;
+    width: 6in;
     height: 9in;
     margin: 10px;
     border-radius: 1%;
+    /*-webkit-box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.38); 
+    box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.38);*/
+    -webkit-box-shadow: 2px -3px 7px 0px rgba(0,0,0,0.38); 
+    box-shadow: 2px -3px 7px 0px rgba(0,0,0,0.38);
 }
 
 /*.elements-container {
@@ -17,23 +21,31 @@ div.elements-container-box {
     display: block;
     padding: 15px;
 }
-.floatL {
+/*.floatL {
     float: left;
+    margin: 2px 2px 2px 2px;
 }
 .floatR {
     float: right;
-}
+}*/
 div.element-holder {
-    width: 117px;
+    width: 124px;
     min-height: 107px;
     background: #ffffff;
-    padding: 5px;
-    /* border: #000000 solid 1px; */
-    margin-top: 5px;
+    padding: 4px;
     text-align: center;
     font-size: 0.9em;
     position: relative;
     border-radius: 10px;
+    float: left;
+    margin: 2px 2px 2px 2px;
+    -webkit-box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.38); 
+    box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.38);
 }
 
-
+div.box-title {
+    margin: 0px 0 10px 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 0 0 0;
+}
