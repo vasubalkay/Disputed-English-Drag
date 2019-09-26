@@ -32,6 +32,7 @@ body {
 
 .mat-card {
   background: #dddada;
+  padding: 0px;
 }
 
 .mat-card div.app-root {
@@ -42,8 +43,8 @@ div.app-root {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
-  //flex-wrap: wrap;
+  // justify-content: space-around;
+  flex-wrap: wrap;
   background-color: #fff;
 }
 
@@ -91,4 +92,21 @@ div.app-root div.canvasElement-pane {
 }
 div.app-root div.canvasElement-pane app-canvas {
   margin: 0;
+}
+
+div.formElement-pane {
+  // border-right: #999 solid 1px;
+  width: 34.2%;
+}
+
+div.propElement-pane {
+  // border-left: #999 solid 1px;
+  width: 34.2%;
+}
+
+div.editElement-pane {
+  width: 99%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
