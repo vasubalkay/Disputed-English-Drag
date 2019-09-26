@@ -1,8 +1,9 @@
 <div class="element-container">
   <!--<div class="element-heading">Hr Line</div>-->
-
-  <hr (dragstart)="dragStart($event)"
-      (dragend)="dragEnd($event)"
-      class="drag" draggable="true" id="vr-line" class="vr-line"/>
+  <div (dragstart)="dragStart($event)"
+      (dragend)="dragEnd($event)" class="vr-line" draggable="true" id="vr-line">
+      <hr id="vr-line" class="vr-line"/>
+  </div>
+  
       <span>Vertical Line</span>
 </div>
