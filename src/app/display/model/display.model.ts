@@ -1,4 +1,4 @@
-export class DisplayModel { 
+export class DisplayModel {
   id: number;
   msaVersionId: number;
   moduleName: string;

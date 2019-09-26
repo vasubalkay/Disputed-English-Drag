@@ -1,4 +1,4 @@
-import {NOTIFICATION} from '../model/notification.constatnts';
+import { NOTIFICATION } from '../model/notification.constatnts';
 
 export const DISPLAY_NOTIFICATION_SERVICE = {
   DROP_MSG_SUCCESS: {
@@ -16,4 +16,6 @@ export const DISPLAY_NOTIFICATION_SERVICE = {
     type: NOTIFICATION.ERROR
   }
 
-}
+};
+
+

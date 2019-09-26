@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ComboBoxElementComponent } from './combo-box-element.component';
 
 describe('ComboBoxElementComponent', () => {

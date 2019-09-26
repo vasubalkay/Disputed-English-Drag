@@ -1,5 +1,4 @@
 import { TestBed, inject } from '@angular/core/testing';
-
 import { PostDropActionsService } from './post-drop-actions.service';
 
 describe('PostDropActionsService', () => {

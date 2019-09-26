@@ -1,8 +1,8 @@
-import {Component, Inject, Input, OnInit} from '@angular/core';
-import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
-import {ElementEventsService} from '../../services/element-events.service';
-import {FormBuilder} from '@angular/forms';
-import {PostDropActionsService} from '../../services/post-drop-actions.service';
+import { Component, Inject, Input, OnInit } from '@angular/core';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
+import { ElementEventsService } from '../../services/element-events.service';
+import { FormBuilder } from '@angular/forms';
+import { PostDropActionsService } from '../../services/post-drop-actions.service';
 
 @Component({
   selector: 'app-properties-change-dialog',

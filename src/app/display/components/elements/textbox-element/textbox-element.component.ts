@@ -4,7 +4,7 @@ import { ElementEventsService} from '../../../services/element-events.service';
 @Component({
   selector: 'app-textbox-element',
   templateUrl: './textbox-element.component.html',
-  styleUrls: ['./textbox-element.component.css']
+  styleUrls: ['./textbox-element.component.scss']
 })
 export class TextboxElementComponent implements OnInit {
 

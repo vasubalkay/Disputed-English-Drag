@@ -1,8 +1,8 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {NotificationService} from '../../services/notification.service';
-import {DISPLAY_NOTIFICATION_SERVICE} from '../../constants/display-notification.constants';
-import {Subject} from 'rxjs';
-import {ElementEventsService} from '../../services/element-events.service';
+import { Component, Input, OnInit } from '@angular/core';
+import { NotificationService } from '../../services/notification.service';
+import { DISPLAY_NOTIFICATION_SERVICE } from '../../constants/display-notification.constants';
+import { Subject } from 'rxjs';
+import { ElementEventsService } from '../../services/element-events.service';
 
 @Component({
   selector: 'umsa-display-container',

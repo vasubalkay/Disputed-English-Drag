@@ -1,10 +1,10 @@
-import {Component, ComponentFactoryResolver, OnInit, ViewChild, ViewContainerRef} from '@angular/core';
+import { Component, ComponentFactoryResolver, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { ElementEventsService} from '../../../services/element-events.service';
 
 @Component({
   selector: 'app-button-element',
   templateUrl: './button-element.component.html',
-  styleUrls: ['./button-element.component.css']
+  styleUrls: ['./button-element.component.scss']
 })
 export class ButtonElementComponent implements OnInit {
 

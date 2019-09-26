@@ -1,9 +1,9 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
-import {DragLifecycleService} from '../../services/drag-lifecycle.service';
-import {ElementEventsService} from '../../services/element-events.service';
-import {UtilsService} from '../../services/utils.service';
-import {PostDropActionsService} from '../../services/post-drop-actions.service';
+import { DragLifecycleService } from '../../services/drag-lifecycle.service';
+import { ElementEventsService } from '../../services/element-events.service';
+import { UtilsService } from '../../services/utils.service';
+import { PostDropActionsService } from '../../services/post-drop-actions.service';
 
 @Component({
   selector: 'app-canvas',
@@ -172,7 +172,7 @@ export class CanvasComponent implements OnInit {
     context.stroke();
 
     // Center of the canvas
-    context.beginPath()
+    context.beginPath();
     for (const xpos of checkx) {
       if (xpos === Math.round(dropw / 2)) {
         context.moveTo(canvas.width / 2, 0);

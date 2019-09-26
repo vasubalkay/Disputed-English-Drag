@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ElementEventsService} from "../../../services/element-events.service";
+import { ElementEventsService } from '../../../services/element-events.service';
 
 @Component({
   selector: 'umsa-horizontal-line-element',

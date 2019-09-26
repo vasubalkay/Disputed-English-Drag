@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { VerticalLineElementComponent } from './vertical-line-element.component';
 
 describe('VerticalLineElementComponent', () => {

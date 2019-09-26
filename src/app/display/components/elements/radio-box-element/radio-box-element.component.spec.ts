@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { RadioBoxElementComponent } from './radio-box-element.component';
 
 describe('RadioBoxElementComponent', () => {

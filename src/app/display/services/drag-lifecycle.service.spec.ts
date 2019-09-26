@@ -1,5 +1,4 @@
 import { TestBed, inject } from '@angular/core/testing';
-
 import { DragLifecycleService } from './drag-lifecycle.service';
 
 describe('DragLifecycleService', () => {

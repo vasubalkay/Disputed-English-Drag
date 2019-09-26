@@ -1,8 +1,6 @@
-import {Injectable} from '@angular/core';
-
-import {MatSnackBar} from '@angular/material';
-
-import {Notification} from '../model/notification.model';
+import { Injectable } from '@angular/core';
+import { MatSnackBar } from '@angular/material';
+import { Notification } from '../model/notification.model';
 
 @Injectable({
     providedIn: 'root'
@@ -26,3 +24,4 @@ export class NotificationService {
   }
 
 }
+

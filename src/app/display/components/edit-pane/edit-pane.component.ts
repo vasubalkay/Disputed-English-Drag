@@ -1,12 +1,12 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {PostDropActionsService} from '../../services/post-drop-actions.service';
-import {DragLifecycleService} from '../../services/drag-lifecycle.service';
-import {SaveCanvasService} from '../../services/save-canvas.service';
-import {ElementEventsService} from '../../services/element-events.service';
-import {UtilsService} from '../../services/utils.service';
-import {DisplayService} from '../../services/display.service';
-import {DisplayModel} from '../../model/display.model';
-import {FormBuilder, ValidationErrors, Validators} from '@angular/forms';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { PostDropActionsService } from '../../services/post-drop-actions.service';
+import { DragLifecycleService } from '../../services/drag-lifecycle.service';
+import { SaveCanvasService } from '../../services/save-canvas.service';
+import { ElementEventsService } from '../../services/element-events.service';
+import { UtilsService } from '../../services/utils.service';
+import { DisplayService } from '../../services/display.service';
+import { DisplayModel } from '../../model/display.model';
+import { FormBuilder, ValidationErrors, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-edit-pane',

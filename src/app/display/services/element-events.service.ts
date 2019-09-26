@@ -1,12 +1,12 @@
-import {Injectable} from '@angular/core';
-import {DragLifecycleService} from './drag-lifecycle.service';
-import {UtilsService} from './utils.service';
-import {PropertiesChangeDialogComponent} from '../dialog/properties-change-dialog/properties-change-dialog.component';
-import {MatDialog} from '@angular/material';
-import {BehaviorSubject} from 'rxjs';
-import {PostDropActionsService} from './post-drop-actions.service';
-import {Observable} from 'rxjs';
-import {Subject} from 'rxjs';
+import { Injectable } from '@angular/core';
+import { DragLifecycleService } from './drag-lifecycle.service';
+import { UtilsService } from './utils.service';
+import { PropertiesChangeDialogComponent } from '../dialog/properties-change-dialog/properties-change-dialog.component';
+import { MatDialog } from '@angular/material';
+import { BehaviorSubject } from 'rxjs';
+import { PostDropActionsService } from './post-drop-actions.service';
+import { Observable } from 'rxjs';
+import { Subject } from 'rxjs';
 
 @Injectable()
 export class ElementEventsService {

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {DragLifecycleService} from './drag-lifecycle.service';
+import { DragLifecycleService } from './drag-lifecycle.service';
 
 @Injectable()
 export class UtilsService {
